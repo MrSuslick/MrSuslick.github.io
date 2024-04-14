@@ -1,0 +1,191 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.footer_content{
+    display: flex;
+    align-items: center;
+    margin-left:32%;
+
+}
+footer{
+    margin-top:-100px;
+}
+
+.blocker{
+    width: 50px;
+    height: 10px;
+    margin-left: 50px;
+}
+#landmarks{
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+}
+.button{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    position: absolute;
+    width: 200px;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: .5em;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(43, 42, 42);
+    margin-right: 1em;
+    user-select: none;
+    cursor: pointer;
+}
+button:hover{
+    color: red;
+}
+.nav-item {
+    display: flex;
+    align-items: center center;
+    padding: .5em;
+    margin-right: 1em;
+    user-select: none;
+    cursor: pointer;
+}
+.block{
+    background-color: rgb(39, 38, 38);
+}
+.nav-item:hover{
+    color: red;
+}
+nav {
+    width: 100%;
+    padding: 1em 0 1em;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    align-items: center center;    
+}
+.logo{
+    margin-top: 19px;
+    margin-left: 40px;
+    position: absolute;
+    top: 0%;
+    display: inline-block;
+    width: 50px;
+}
+.header{
+    margin-left: -12%;
+    display: flex;
+    width: 1650px;
+    padding: .5em;
+    color: white;
+    align-items: center;
+    margin-right: 1em;
+    justify-content: center;
+}
+.main{
+    width: 100%;
+    position: relative;
+    text-align: center;
+    color: white;
+   
+}
+.birdfly{
+    filter: brightness(40%);
+    width: 100%;
+}
+.centered-z {
+    position: absolute;
+    width: 100px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.odin{
+    color: rgb(206, 204, 204);
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 20px ;
+    transform: translate(-50%, -50%);
+    animation: text 3s 1;
+}
+section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 6vw;
+    box-sizing: border-box;
+    min-height: 50vh;
+}
+.header_right{
+    flex-direction: row;
+    display:flex;
+    margin-left: 7%;
+    width: 85%;
+    margin-top: 20;
+    margin-bottom: 20;
+    animation: text 1s 1;
+    
+}
+.h1{
+    size: 50px;
+}
+.p{
+    font-size:5px;
+}
+.txt{
+    flex-direction: column;
+    display:flex;
+    margin-left:20px;
+    font-size:14px;
+}
+.imgg{
+    margin:20px;
+}
+.section_item{
+    display: flex;
+    flex-direction: row;
+    margin:40px;
+}
+.logotip{
+    margin: 5px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center center;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+}
+.name{
+    margin-left: 60px;
+}
+.srt-txt{
+    text-align: center;
+
+}
+.welcome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.map{
+    width: 100%;
+}
+.cas{
+    width: 100%;
+}
+hr{
+    width: 80%;
+}
+#colvo{
+    width: 90%;
+}
